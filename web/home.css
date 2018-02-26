@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 26, 2018, 4:40:57 PM
+    Author     : lenovo
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    width: 100%;
+    left:0;
+    font-family:arial;
+    font-size:15px; 
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+    padding-left:0px;
+    padding-bottom:-5px;
+    margin-bottom:50px;
+    top:0;
+    height:7%;
+}
+
+ul input{
+    border: none;
+    margin-right: 5px;
+    font-family:arial;
+    font-size:15px; 
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+    
+   
+}
+ul input[type=text],input[type=password]{
+     color:black;
+     width:120px;
+    
+}
+ul input[type=submit]{
+     background-color: #333;
+    color:white;
+}
+
+ul input[type=submit]:hover{
+    background-color: #111;
+}
+li {
+    float: left;
+  
+}
+
+li a, .login{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+li a:active {
+    background-color: #111;
+}
+
+#photos{
+    margin-top:100px;
+   
+}
+#photos img{
+     height:150px;
+     width:150px;
+     margin-left: 70px;
+     margin-top:50px;
+}
