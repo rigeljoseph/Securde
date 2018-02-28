@@ -20,7 +20,7 @@ ul {
     font-family:arial;
     font-size:15px; 
     letter-spacing:0.5px;
-    text-transform: uppercase;
+   color:white;
     padding-left:0px;
     padding-bottom:-5px;
     margin-bottom:50px;
@@ -34,18 +34,22 @@ ul input{
     font-family:arial;
     font-size:15px; 
     letter-spacing:0.5px;
-    text-transform: uppercase;
+    
     
    
 }
 ul input[type=text],input[type=password]{
      color:black;
-     width:120px;
-    
+     width:140px;
+     font-size:10px;
+     height:15px;
+    margin-top: 15px;
 }
+
 ul input[type=submit]{
      background-color: #333;
     color:white;
+    margin-top: 15px;   
 }
 
 ul input[type=submit]:hover{

@@ -19,9 +19,9 @@
             
             <%-- LOGIN STUFF --%>
 
-            <form action="" class="login" style="float:right">
-             <li>   Username: <input type="text" name="fname"></li>
-             <li>   Password: <input type="password" name="pword"></li>
+            <form action="login" method="post"  style="float:right">
+             <li>   USERNAME: <input type="text" name="email"></li>
+             <li>   PASSWORD: <input type="password" name="pword"></li>
              <li>   <input type="submit" value="LOGIN"> </li>
             </form> 
             

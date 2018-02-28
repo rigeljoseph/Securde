@@ -53,16 +53,39 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        <ul>\n");
-      out.write("            <li>HOME</li>\n");
-      out.write("            <li>ITEMS</li>\n");
+      out.write("            <li> <a> HOME </a></li>\n");
+      out.write("            <li><a>ITEMS </a></li>\n");
       out.write("            \n");
-      out.write("            <form action=\"\">\n");
-      out.write("             <li>   Username: <input type=\"text\" name=\"fname\"></li>\n");
+      out.write("            ");
+      out.write("\n");
+      out.write("\n");
+      out.write("            <form action=\"/login\" method=\"post\" class=\"login\"  style=\"float:right\">\n");
+      out.write("             <li>   Username: <input type=\"text\" name=\"email\"></li>\n");
       out.write("             <li>   Password: <input type=\"password\" name=\"pword\"></li>\n");
-      out.write("             <li>   <input type=\"submit\" value=\"Submit\"> </li>\n");
+      out.write("             <li>   <input type=\"submit\" value=\"LOGIN\"> </li>\n");
       out.write("            </form> \n");
       out.write("            \n");
+      out.write("              ");
+      out.write("\n");
       out.write("        </ul>\n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("        <div id=\"photos\">\n");
+      out.write("            ");
+ for (int n=0; n <2; n++){
+                for (int i=0; i <5; i++){
+      out.write("\n");
+      out.write("         \n");
+      out.write("                <a href=\"index.jsp\"> <img src=\"dlsu.png\"");
+      out.write(" alt=\"Smiley face\"> <a>\n");
+      out.write("            ");
+ } 
+      out.write("\n");
+      out.write("            <br><br>\n");
+      out.write("           ");
+ }
+      out.write("\n");
+      out.write("        </div>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
