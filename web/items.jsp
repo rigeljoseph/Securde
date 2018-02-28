@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Feb 26, 2018, 3:52:30 PM
+    Document   : items
+    Created on : Mar 1, 2018, 2:36:06 AM
     Author     : lenovo
 --%>
 
@@ -8,15 +8,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-         <link rel="stylesheet" href="home.css">
+           <link rel="stylesheet" href="home.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Home</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <ul>
+           <ul>
             <li> <a href="index.jsp"> HOME </a></li>
-            <li><a href="items.jsp"s>ITEMS </a></li>
-                   
+            <li><a href="items.jsp">ITEMS </a></li>
             
             <%-- LOGIN STUFF --%>
           
